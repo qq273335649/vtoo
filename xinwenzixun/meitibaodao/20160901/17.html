@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用MVP验证用户需求，让用户需求催生产品！_高端炫酷网络公司设计公司科技公司织梦模板(带手机端)</title>
+<meta name="keywords" content="Instagram, Instagram MVP, Inst" />
+<meta name="description" content="Kevin Systrom最初的时候做了一款产品叫Burbn，该产品是结合地理位置进行签到并对即将发生的行程做定制规划的应用，同时集成了照片分享、用户评论等众多功能。但该产品迟迟没有火起" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link rel="stylesheet" type="text/css" href="/skin/css/style_2_common.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/style_2_portal_view.css" />
+<script src="/skin/js/common.js" type="text/javascript"></script>
+<script src="/skin/js/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="/skin/js/pace.js" type="text/javascript"></script>
+<link href="/skin/css/style.css" rel="stylesheet" type="text/css" />
+<body id="nv_portal" class="pg_view" >
+
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+<div id="toptb" class="cl" style="display:none;"> </div>
+<div id="hd" style="background:#FFF; height:60px; border-bottom:1px solid #E6E6E6; ">
+  <div class="clear"></div>
+  <div id="week_nav">
+    <div class="wk_navwp">
+      <div class="wk_lonav">
+        <div class="wk_logo">
+          <h2><a href="/" title="北京某某科技有限公司"><img src="/skin/images/logo.png" alt="北京某某科技有限公司" border="0" /></a></h2>
+        </div>
+        <div class="wk_inav">
+          <ul class="nav">
+            <li id="mn_portal" ><a href="/" hidefocus="true" title="Portal"  >企业首页<span>Home</span></a></li>
+            <li id="mn_P2" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><a href="/xinwenzixun/" hidefocus="true"  >新闻资讯</a></li>
+            <li id="mn_P3" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><a href="/chanpinzhongxin/" hidefocus="true"  >产品中心</a></li>
+            <li id="mn_P4" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><a href="/xiangmuanli/" hidefocus="true"  >项目案例</a></li>
+            <li id="mn_P5" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><a href="/fuwuzhongxin/" hidefocus="true"  >服务中心</a></li>
+            <li id="mn_P1" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><a href="/guanyuwomen/" hidefocus="true"  >关于我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sub_nav">
+  <ul class="p_pop h_pop" id="mn_P2_menu" style="display: none">
+    
+    <li><a href="/xinwenzixun/gongsixinwen/" hidefocus="true" >公司新闻</a></li>
+    
+    <li><a href="/xinwenzixun/xingyexinwen/" hidefocus="true" >行业新闻</a></li>
+    
+    <li><a href="/xinwenzixun/meitibaodao/" hidefocus="true" >媒体报道</a></li>
+    
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P3_menu" style="display: none">
+    
+    <li><a href="/chanpinzhongxin/weixinkaifa/" hidefocus="true" >微信开发</a></li>
+    
+    <li><a href="/chanpinzhongxin/yidongapp/" hidefocus="true" >移动app</a></li>
+    
+    <li><a href="/chanpinzhongxin/ruanjianjiemian/" hidefocus="true" >软件界面</a></li>
+    
+    <li><a href="/chanpinzhongxin/dianzishangwu/" hidefocus="true" >电子商务</a></li>
+    
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P4_menu" style="display: none">
+    
+    <li><a href="/xiangmuanli/anlizhanshi1/" hidefocus="true" >案例展示1</a></li>
+    
+    <li><a href="/xiangmuanli/anlizhanshi2/" hidefocus="true" >案例展示2</a></li>
+    
+  </ul>
+  <div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div>
+  <ul class="p_pop h_pop" id="mn_P5_menu" style="display: none">
+    
+    <li><a href="/fuwuzhongxin/changjianwenti/" hidefocus="true" >常见问题</a></li>
+    
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P1_menu" style="display: none">
+    
+    <li><a href="/guanyuwomen/tuandui/" hidefocus="true" >团队</a></li>
+    
+    <li><a href="/guanyuwomen/fazhanlicheng/" hidefocus="true" >发展历程</a></li>
+    
+    <li><a href="/guanyuwomen/chengpinyingcai/" hidefocus="true" >诚聘英才</a></li>
+    
+    <li><a href="/guanyuwomen/lianxiwomen/" hidefocus="true" >联系我们</a></li>
+    
+  </ul>
+</div>
+<div id="mu" class="cl">
+  <div class="wp"> </div>
+</div>
+<script src="/skin/js/week_nav.js" type="text/javascript"></script> 
+
+<div id="wp" class="wp">
+<!--[name]Week_Design_view_news_wide[/name]-->
+
+<script src="/skin/js/forum_viewthread.js" type="text/javascript"></script>
+<script type="text/javascript">zoomstatus = parseInt(1), imagemaxwidth = '600', aimgcount = new Array();</script>
+<style id="diy_style" type="text/css"></style>
+<style>
+.ct2 { border:0; padding-bottom:30px;} 
+.vw .d img { max-width:1160px; }
+.ie6 .vw .d img { width: expression(this.width > 1160 ? 1160:true); }
+</style>
+
+<script type="text/javascript">
+var bodyBgs = [];
+bodyBgs[0] = "/skin/images/vbn4.jpg";
+bodyBgs[1] = "/skin/images/vbn3.jpg";
+bodyBgs[2] = "/skin/images/vbn2.jpg";
+bodyBgs[3] = "/skin/images/vbn1.jpg";
+var randomBgIndex = Math.round( Math.random() * 3 );
+document.write('<style>.wk_news_box {background:url('/skin/images/d18f63cab3f3444b87380e6ef4498d19.gif') no-repeat center top; background-size:cover;}</style>');
+</script>
+
+</div>
+<div class="wk_news_box">
+<div class="wk_portalhead_bg">
+<ul>
+
+<li><a href="/xinwenzixun/gongsixinwen/" title="公司新闻" >公司新闻</a></li>
+
+<li><a href="/xinwenzixun/xingyexinwen/" title="行业新闻" >行业新闻</a></li>
+<li><a href='/xinwenzixun/meitibaodao/' title='媒体报道' class='a'>媒体报道</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+<h1 class="ph">用MVP验证用户需求，让用户需求催生产品！ </h1>
+<p class="xg1">
+2016-09-01 16:25<span class="pipe">|</span>
+发布者: <span class="pipe">|</span>
+查看: <em id="_viewnum"><script src="/plus/count.php?view=yes&aid=17&mid=1" type='text/javascript' language="javascript"></script></em><span class="pipe">|</span>               
+</p>
+</div>
+<div class="clear"></div>
+<div class="wk_ymbg">
+<div id="wp" class="wp">
+
+<div class="wp">
+<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+<div id="ct" class="ct2 wp cl">
+
+<div class="clear"></div>
+
+<div class="bm vw">
+
+<div class="h hm wk_hm">
+
+</div>
+
+<!--[diy=diysummarytop]--><div id="diysummarytop" class="area"></div><!--[/diy]-->
+
+<!--[diy=diysummarybottom]--><div id="diysummarybottom" class="area"></div><!--[/diy]-->
+
+<div class="d">
+
+<!--[diy=diycontenttop]--><div id="diycontenttop" class="area"></div><!--[/diy]-->
+
+<table cellpadding="0" cellspacing="0" class="vwtb"><tr><td id="article_content">
+<p>Kevin Systrom最初的时候做了一款产品叫Burbn，该产品是结合地理位置进行签到并对即将发生的行程做定制规划的应用，同时集成了照片分享、用户评论等众多功能。</p>
+<p><a href="/uploads/allimg/c160901/14HGQW5NP-33U6.png"><img src="/uploads/allimg/c160901/14HGQW5NP-33U6.png" alt="grfbbb" width="1000" height="610" class="aligncenter size-full wp-image-3282" srcset="/uploads/allimg/c160901/14HGQW5NP-33U6.png 1000w, http://www.yzipi.com/wp-content/uploads/2015/12/grfbbb-270x165.png 270w, http://www.yzipi.com/wp-content/uploads/2015/12/grfbbb-400x244.png 400w, http://www.yzipi.com/wp-content/uploads/2015/12/grfbbb-600x366.png 600w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>但该产品迟迟没有火起来，直到有一天，Kevin与联合创始人Mike Krieger对Burbn进行了外科手术，只保留图片分享功能，它才最终火了起来。这就是被Facebook收购、目前估值350亿美金的Instagram！</p>
+<p>怎样打造出用户需要的产品？资深营销人宿晨认为，你需要了解并做好以下4个方面：</p>
+<h2>1、做用户享有的，而非你想要的！</h2>
+<p>时光飞逝，Instagram已经火遍全球了。然而类似Kevin最初的错误依然在很多创业者身上演绎着，很多创业者的目标是：把我所设想的产品做出来给用户，这个产品一定是很多用户想要的，一定会火的！试问，用户一定会接受你的产品吗？当投入大量的精力与物力做出了一款不被用户接受的产品，即使再强大的推广团队、营销方案去执行该产品的推广，也仅仅是昙花一现，导致项目计划失败。</p>
+<p>在网络技术如此发达的今天，我们已经没必要去讨论一款产品是否会不会被创造出来，而是应该思考，你将要创造的产品是否是用户喜欢的、需要的。在产品设计开发之初，可以通过诸如A/B测试的方式，用最小的原型产品（MVP）进行测试，来获取用户的想法、需求，用数据来证明什么才是用户喜欢的、想要的产品！</p>
+<h2>2、用MVP验证用户需求</h2>
+<p>在市场不明晰的情况下，倾尽所有资源大规模进入是冒险家的行为。验证产品的方向是否可行、是否满足用户需求，有更好的办法来完成。这就是《精益创业》的作者Eric Ries(埃里克·莱斯)所提出的MVP（Minimum Viable Product）概念，即：最小化可行产品。</p>
+<p>所谓的MVP（Minimum Viable Product）就是指将原型产品用最简洁的、可实现的方式开发出来，砍掉无用的繁杂的高级功能，快速投放到目标用户群进行试用，通过不断的用户数据反馈分析有价值的信息，进行产品的迭代。这里的MVP可以是一个H5页面、基于微信公号开发的Demo、甚至是一个产品的宣传视频、原型线框图等。柚子皮（www.yzipi.com）</p>
+<p>MVP并不是解决产品的设计是否美观，技术实现是否流畅、高效等功能问题，而是用于解决最重要的两个问题：需求的假设验证与用户是否会增长、是否愿意为产品买单。</p>
+<p>创业者应该杜绝闭门造车的现象发生，在互联网的产品中，永远都是Beta版，把我们最美好的创意第一时间呈现在用户面前，让用户感知后才可能激发出真正的需求，做好反馈的循环：开发——测试——用户认知。</p>
+<h2>3、让用户需求催生产品！</h2>
+<p>很多昙花一现的产品是源自于创始人的爱好、或者个人兴趣，然而更多成功的产品、伟大的产品是由用户的需求催生而来。</p>
+<p>在产品市场验证过程中发现需求方向存在问题的时候，解决问题的代价是在制定“需求”的时候发现问题的135~180倍。</p>
+<p>在创业之初，我们该如何获取用户的需求并进行分析，建议大家从以下几个方面去考虑：</p>
+<p>①真实需求还是伪需求？</p>
+<p>②是否刚需、市场规模多大？</p>
+<p>③需求变现的能力如何？</p>
+<h2>4、一旦MVP验证通过，即可大规模复制</h2>
+<p>没有用户喜爱的成熟产品做依托，再强大的推广也无济于事。在雄心勃勃开展产品开发与市场推广之初，如果选取一些目标社区作为试点推广，反复分析用户使用数据，迭代产品，当产品的用户满意度、用户留存及功能比较成熟后，在进行大面积推广、复制。</p>
+<p>可能很多人认为这会耽误很多时间、错过最佳的市场推广窗口期，但是我们要明确的是：耽误时间并不等同于浪费时间，市场是永远存在，真正的好产品是不存在错过任何所谓的推广窗口期。通过小范围的试点，提升用户的留存与满意度，结合用户反馈的产品使用数据，迭代并完善产品，这个时候你需要做的就是推广、复制就可以了！</p>
+</td></tr></table>
+
+<!--[diy=diycontentbottom]--><div id="diycontentbottom" class="area"></div><!--[/diy]-->
+
+<script src="/skin/js/home.js" type="text/javascript"></script>
+
+
+<!--[diy=diycontentclickbottom]--><div id="diycontentclickbottom" class="area"></div><!--[/diy]-->
+
+</div>
+
+<div class="clear"></div>
+
+<div class="week_share">
+<div class="bdsharebuttonbox"><a class="ishare">分享到：</a>
+<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到： 微信">微信</a>
+<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到： QQ好友">QQ好友</a>
+<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到： 新浪微博">新浪微博</a>
+<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到： QQ空间">QQ空间</a>
+<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到： 腾讯微博">腾讯微博</a>
+<a href="#" class="bds_renren" data-cmd="renren" title="分享到： 人人网">人人网</a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+</div>
+
+<div class="clear"></div>
+</div>
+
+<!--[diy=diycontentrelatetop]--><div id="diycontentrelatetop" class="area"></div><!--[/diy]--><!--[diy=diycontentrelate]--><div id="diycontentrelate" class="area"></div><!--[/diy]-->
+
+
+<!--[diy=diycontentcomment]--><div id="diycontentcomment" class="area"></div><!--[/diy]-->
+</div>
+</div>
+<div class="clear"></div>
+
+<div class="wk_sxy">
+<div class="post-prev" ><a href="/xinwenzixun/meitibaodao/20160901/4.html" title="上一篇">&lt;</a></div>    
+<div class="post-next" ><a href="/xinwenzixun/meitibaodao/20160901/26.html" title="下一篇">&gt;</a></div>
+</div>
+<div class="wp mtn">
+<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+<input type="hidden" id="portalview" value="1">	</div>
+
+
+<script type="text/javascript">
+_attachEvent(window, 'load', getForbiddenFormula, document);
+function getForbiddenFormula() {
+var toGetForbiddenFormulaFIds = function () {
+ajaxget('plugin.php?id=cloudsearch&formhash=4510d125');
+};
+var a = document.body.getElementsByTagName('a');
+for(var i = 0;i < a.length;i++){
+if(a[i].getAttribute('sc')) {
+a[i].setAttribute('mid', hash(a[i].href));
+a[i].onmousedown = function() {toGetForbiddenFormulaFIds();};
+}
+}
+var btn = document.body.getElementsByTagName('button');
+for(var i = 0;i < btn.length;i++){
+if(btn[i].getAttribute('sc')) {
+btn[i].setAttribute('mid', hash(btn[i].id));
+btn[i].onmousedown = function() {toGetForbiddenFormulaFIds();};
+}
+}
+}
+</script>
+
+
+<div id="wk_ft">
+  <section class="section fp-auto-height">
+    <div class="wk_footer_side">
+      <div class="wk_footer"> Copyright &copy; 2016 baidu. 版权所有   备案号：<a href="http://www.miitbeian.gov.cn/" target="_blank" title="浙ICP888888888备">浙ICP888888888备</a> <br />
+        友情链接：<a href='http://taobao.com' target='_blank'>淘宝</a> <a href='http://www.baidu.com' target='_blank'>百度一下</a>  </div>
+    </div>
+  </section>
+</div>
+</div>
+<ul id="scbar_type_menu" class="p_pop" style="display: none;">
+</ul>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+</script>
+<link href="/skin/css/service.css" rel="stylesheet" type="text/css" />
+<div class="main-im">
+  <div id="open_im" class="open-im">&nbsp;</div>
+  <div class="im_main" id="im_main">
+    <div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>
+    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=12345678&amp;site=qq&amp;menu=yes" target="_blank" class="im-qq qq-a" title="在线QQ客服">
+    <div class="qq-container"></div>
+    <div class="qq-hover-c"><img class="img-qq" src="/skin/images/qq.png"></div>
+    <span>QQ在线咨询</span> </a>
+    <div class="im-tel">
+      <dt>售前咨询热线</dt>
+      <dt class="tel-num">12345678</dt>
+      <dt>售后服务热线</dt>
+      <dt class="tel-num">400-500-1234</dt>
+    </div>
+    <div class="im-footer" style="position:relative">
+      <div class="weixing-container">
+        <div class="weixing-show">
+          <div class="weixing-txt">微信扫一扫<br>
+            关注织梦58<br>
+            获取更多精彩风格</div>
+          <img class="weixing-ma" src="/skin/images/weixin.jpg">
+          <div class="weixing-sanjiao"></div>
+          <div class="weixing-sanjiao-big"></div>
+        </div>
+      </div>
+      <div class="go-top"><a href="javascript:;" title="返回顶部"></a> </div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+PTM(document).ready(function(){
+PTM('#close_im').bind('click',function(){
+PTM('#main-im').css("height","0");
+PTM('#im_main').hide();
+PTM('#open_im').show();
+});
+PTM('#open_im').bind('click',function(e){
+PTM('#main-im').css("height","272");
+PTM('#im_main').show();
+PTM(this).hide();
+});
+PTM('.go-top').bind('click',function(){
+PTM(window).scrollTop(0);
+});
+PTM(".weixing-container").bind('mouseenter',function(){
+PTM('.weixing-show').show();
+})
+PTM(".weixing-container").bind('mouseleave',function(){        
+PTM('.weixing-show').hide();
+});
+});
+</script> 
+<script src="/skin/js/home.js" type="text/javascript"></script>
+<div id="scrolltop"> <span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span> </div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+<div id="discuz_tips" style="display:none;"></div>
+<script src="/skin/js/discuz_tips.js" type="text/javascript" charset="UTF-8"></script>
+</body>
+</html>

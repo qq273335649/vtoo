@@ -1,0 +1,44 @@
+<?php
+$z[0]=Array("field","",253,272);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",273,299);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",339,368);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",407,465);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",1135,1170);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",1786,1815);
+$z[5][4]['name']="typename";
+$z[6]=Array("list"," \n<li class=\"cl\">\n<h2><a href=\"[field:arcurl/]\" target=\"_blank\" class=\"xi2\" title=\"[field:title/]\"  style=\"\">[field:title/]</a> </h2>\n<p class=\"wk_bm_sm\">[field:infos/]...</p>\n<span class=\"xg1\">\n分类: <label><a href=\"[field:arcurl/]\" class=\"xi2\">[field:typename/]...</a></label>&nbsp;&nbsp;                            \n<span class=\"xg1\">时间: [field:pubdate function=\"MyDate('Y-m-d h:m',@me)\"/]</span>\n</span>\n</li>\n",1995,2466);
+$z[6][4]['pagesize']="15";
+$z[6][4]['titlelen']="80";
+$z[7]=Array("pagelist","",2688,2759);
+$z[7][4]['listitem']="info,index,end,pre,next,pageno";
+$z[7][4]['listsize']="5";
+$z[8]=Array("field","",2957,2986);
+$z[8][4]['name']="typename";
+$z[9]=Array("channel","\n<li class=\"wk_menu1_cur\"><a href=\"[field:typeurl/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\n",3073,3338);
+$z[9][4]['type']="son";
+$z[9][4]['row']="8";
+$z[9][4]['currentstyle']="<li class='wk_menu1_cur'><a href='~typelink~' title='~typename~' class='a'>~typename~</a></li>";
+$z[10]=Array("global","",3671,3697);
+$z[10][4]['name']="cfg_address";
+$z[11]=Array("global","",3743,3769);
+$z[11][4]['name']="cfg_company";
+$z[12]=Array("global","",3815,3842);
+$z[12][4]['name']="cfg_shouqian";
+$z[13]=Array("global","",3888,3914);
+$z[13][4]['name']="cfg_shouhou";
+$z[14]=Array("global","",3957,3979);
+$z[14][4]['name']="cfg_qqa";
+$z[15]=Array("global","",4036,4060);
+$z[15][4]['name']="cfg_email";
+$z[16]=Array("global","",4062,4086);
+$z[16][4]['name']="cfg_email";
+$z[17]=Array("include","",5093,5130);
+$z[17][4]['filename']="footer.htm";
+
+?>

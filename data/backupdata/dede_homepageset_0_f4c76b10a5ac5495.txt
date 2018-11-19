@@ -1,0 +1,1 @@
+INSERT INTO `dede_homepageset` VALUES('moban/index_m.htm','../m/index.html','1');

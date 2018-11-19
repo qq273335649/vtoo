@@ -1,0 +1,4 @@
+INSERT INTO `dede_guestbook` VALUES('1','几个环境铬合金铬合金铬合金','0','1','0','lala','273341531@qq.com','','273341531','01','127.0.0.148','1344738695','1','发给电饭锅电饭锅电饭锅电饭锅电饭锅');
+INSERT INTO `dede_guestbook` VALUES('2','测试','0','1','1346730144','拉拉','','','273341531','','127.0.0.148','1344739809','1','<div class=\'rebox\'><div class=\'rebox\'><div class=\'rebox\'><div class=\'rebox\'><div class=\'rebox\'>大撒旦</div>\r\n	</div>\r\n</div>\r\n</div>\r\n<span style=\"font-size: 16px\"><font color=\"red\">管理员回复：金士顿还是个傻瓜化卡石膏矿圣迭戈看是大话股神和的宽广fks交电话费壸浆箪食卡发货单第三方</font></span></div>\n<font color=\"red\">管理员回复：喝咖啡和是废话是</font>');
+INSERT INTO `dede_guestbook` VALUES('7',' 地方顺丰撒地方','0','1','0','收复失地法撒旦','','','232132','','127.0.0.160','1346735953','1','地方顺丰');
+INSERT INTO `dede_guestbook` VALUES('8','地方撒地方撒地方','0','1','0','第三方撒地方撒地方撒地方撒地方','','','123213213213','','127.0.0.160','1346736217','1','的是非得失否定式否定式');

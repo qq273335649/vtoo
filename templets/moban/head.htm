@@ -1,0 +1,57 @@
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+<div id="toptb" class="cl" style="display:none;"> </div>
+<div id="hd" style="background:#FFF; height:60px; border-bottom:1px solid #E6E6E6; ">
+  <div class="clear"></div>
+  <div id="week_nav">
+    <div class="wk_navwp">
+      <div class="wk_lonav">
+        <div class="wk_logo">
+          <h2><a href="/" title="{dede:global.cfg_company/}"><img src="/skin/images/logo.png" alt="{dede:global.cfg_company/}" border="0" /></a></h2>
+        </div>
+        <div class="wk_inav">
+          <ul class="nav">
+            <li id="mn_portal" ><a href="/" hidefocus="true" title="Portal"  >企业首页<span>Home</span></a></li>
+            <li id="mn_P2" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})">{dede:type typeid='1'}<a href="[field:typeurl/]" hidefocus="true"  >[field:typename/]</a>{/dede:type}</li>
+            <li id="mn_P3" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})">{dede:type typeid='5'}<a href="[field:typeurl/]" hidefocus="true"  >[field:typename/]</a>{/dede:type}</li>
+            <li id="mn_P4" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})">{dede:type typeid='10'}<a href="[field:typeurl/]" hidefocus="true"  >[field:typename/]</a>{/dede:type}</li>
+            <li id="mn_P5" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})">{dede:type typeid='13'}<a href="[field:typeurl/]" hidefocus="true"  >[field:typename/]</a>{/dede:type}</li>
+            <li id="mn_P1" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})">{dede:type typeid='15'}<a href="[field:typeurl/]" hidefocus="true"  >[field:typename/]</a>{/dede:type}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sub_nav">
+  <ul class="p_pop h_pop" id="mn_P2_menu" style="display: none">
+    {dede:channel typeid='1' noself='yes'}
+    <li><a href="[field:typelink/]" hidefocus="true" >[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P3_menu" style="display: none">
+    {dede:channel typeid='5' noself='yes'}
+    <li><a href="[field:typelink/]" hidefocus="true" >[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P4_menu" style="display: none">
+    {dede:channel typeid='10' noself='yes'}
+    <li><a href="[field:typelink/]" hidefocus="true" >[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+  <div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div>
+  <ul class="p_pop h_pop" id="mn_P5_menu" style="display: none">
+    {dede:channel typeid='13' noself='yes'}
+    <li><a href="[field:typelink/]" hidefocus="true" >[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P1_menu" style="display: none">
+    {dede:channel typeid='15' noself='yes'}
+    <li><a href="[field:typelink/]" hidefocus="true" >[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+</div>
+<div id="mu" class="cl">
+  <div class="wp"> </div>
+</div>
+<script src="/skin/js/week_nav.js" type="text/javascript"></script> 

@@ -1,0 +1,5 @@
+INSERT INTO `dede_kwcache` VALUES('132','3','http://business.sohu.com/20161010/n469902281.shtml');
+INSERT INTO `dede_kwcache` VALUES('125','3','http://www.southmoney.com/waihui/waihuidongtai/201610/782570.html');
+INSERT INTO `dede_kwcache` VALUES('126','3','http://www.prcsteel.com/news/zixun/80493.html');
+INSERT INTO `dede_kwcache` VALUES('123','3','http://so.com');
+INSERT INTO `dede_kwcache` VALUES('124','3','http://jigou.cngold.org/company/8041/news/c773902.htm');

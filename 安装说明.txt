@@ -1,0 +1,13 @@
+1.把文件上传到你的站点的根目录，然后运行 http://你的域名/install/index.php安装，根据提示填写好相关信息，点“下一步”……即可完成安装。
+
+注： 若提示无法安装，页面出现DIY字样。请进入 install 文件夹，将 install_lock.txt 和 index.html 文件删掉。把 index.php.bak 文件改为 index.php，module-install.php.bak 改为 module-install.php 即可！
+
+2.安装好后，在后台“系统”—“数据库备份/恢复”，点右上角“还原数据”—“开始还原数据”，恢复数据库。
+ 
+3.进入后台http://你的域名/dede，点“系统”—“系统参数设置”这里，修改一下网站设置，重新点一下“确定”。
+ 
+4.后台，点"生成"—"更新系统缓存"
+ 
+5.重新生成一次所有页面，OK 完成。
+
+恢复数据库后重新等http://你的域名/dede账号admin密码admin

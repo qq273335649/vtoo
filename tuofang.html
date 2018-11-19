@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+	<!--
+    <video width="100%" height="300" id="video" style="object-fit:fill;">
+    <source src="https://video.mp4" type="video/mp4">
+</video>
+    <img src="../images/video.png"  id="video2">
+<script type="text/javascript">
+	var video2=document.getElementById("video2");
+var myVideo=document.getElementById("video");
+video2.onclick = function(){
+    video2.style.display = "none";
+    var vList = ['https://video.mp4'];
+    var vLen = vList.length;
+    var curr = 0;
+    myVideo.addEventListener('ended', function () {    //监听视频是否已经结束事件
+        playVid();
+    });
+    function playVid() {
+        myVideo.src = vList[curr];
+        myVideo.load();
+        myVideo.play();
+        curr++;
+        if (curr >= vLen) {
+            curr = 0; //重新循环播放
+        }
+    }
+    $(function () {
+        playVid();
+    })
+}
+	</script>-->
+    <video id="videobox" width="602px" height="200px" controls="controls" style="width: 100%; margin-left: auto; margin-right: auto; margin-bottom:252px;height: 90%;"> 
+<source src="./skin/images/720.mov" type="video/mp4"></source> 
+<source src="./skin/images/720.mov" type="video/ogg"></source> 
+your browser does not support the video tag 
+</video>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="80%" style="margin-top: 0px;margin-left: -8px;margin-bottom: 25px; id="FLVPlayer1"> 
+<param name="movie" value="FLVPlayer_Progressive.swf" /> 
+<param name="quality" value="high" /> 
+<param name="wmode" value="opaque" /> 
+<param name="scale" value="noscale" /> 
+<param name="salign" value="lt" /> 
+<param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=public/swf/Clear_Skin_3&amp;streamName=public/video/test&amp;autoPlay=false&amp;autoRewind=false" /> 
+<param name="swfversion" value="8,0,0,0" /> 
+<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 --> 
+<param name="expressinstall" value="expressInstall.swf" /> 
+</object>
+
+<img src="./skin/images/banner11.png"  id="video2">
+
+<script type="text/javascript">
+
+    var video2=document.getElementById("video2");
+    var myVideo=document.getElementById("videobox");
+    video2.onclick = function(){
+    video2.style.display = "none";
+     var vList = ['./skin/images/720.mov'];
+    var vLen = vList.length;
+    var curr = 0;
+    myVideo.addEventListener('ended', function () {    //监听视频是否已经结束事件
+        playVid();
+    });
+    function playVid() {
+        myVideo.src = vList[curr];
+        myVideo.load();
+        myVideo.play();
+        curr++;
+        if (curr >= vLen) {
+            curr = 0; //重新循环播放
+        }
+    }
+    $(function () {
+        playVid();
+    })
+}
+
+  if($.browser.msie){ 
+document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="60%" height="50%" style="margin-top: -10px;margin-left: -8px;" id="FLVPlayer1">'+ 
+'<param name="movie" value="FLVPlayer_Progressive.swf" />'+ 
+'<param name="quality" value="high" />'+ 
+'<param name="wmode" value="opaque" />'+ 
+'<param name="scale" value="noscale" />'+ 
+'<param name="salign" value="lt" />'+ 
+'<param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=public/swf/Clear_Skin_3&amp;streamName=public/video/test&amp;autoPlay=false&amp;autoRewind=false" />'+ 
+'<param name="swfversion" value="8,0,0,0" />'+ 
+'<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->'+ 
+'<param name="expressinstall" value="expressInstall.swf" />'+ 
+'</object>'); 
+}else{ 
+document.write('<video width="602px" height="345px" controls="controls">'+ 
+'<source src="public/video/test.mp4" type="video/mp4"></source>'+ 
+'<source src="public/video/test.ogg" type="video/ogg"></source>'+ 
+'your browser does not support the video tag'+ 
+'</video>'); 
+} 
+function launchFullscreen(element) {
+  if (element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if (element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+  } else if (element.msRequestFullscreen) {
+    element.msRequestFullscreen();
+  } else if (element.oRequestFullscreen) {
+    element.oRequestFullscreen();
+  } else if (element.webkitRequestFullscreen) {
+    element.webkitRequestFullScreen();
+  } else {
+    var docHtml = document.documentElement;
+    var docBody = document.body;
+    var videobox = document.getElementById("videobox");
+    var cssText = 'width:100%;height:100%;overflow:hidden;';
+    docHtml.style.cssText = cssText;
+    docBody.style.cssText = cssText;
+    videobox.style.cssText = cssText + ';' + 'margin:0px;padding:0px;';
+    document.IsFullScreen = true;
+  }
+}
+ 
+launchFullscreen(document.getElementByClassName("case"));
+</script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<?php
+$z[0]=Array("field","",253,272);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",273,299);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",339,368);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",407,465);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",1135,1170);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",1694,1723);
+$z[5][4]['name']="typename";
+$z[6]=Array("list"," \n<div class=\"wk_tidings_main\">\n<div class=\"wk_tidings_img\">\n<a href=\"[field:arcurl/]\" target=\"_blank\" title=\"[field:title/]\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\"/></a>	\n</div>\n<div class=\"wk_tidings_main_name\">\n<span class=\"wk_tidings_main_name2\"><a href=\"[field:arcurl/]\" target=\"_blank\" title=\"[field:title/]\">[field:title/]</a></span>\n</div>\n<div class=\"wk_tidings_main_cnt\">\n<span class=\"wk_tidings_main_cnt2\">[field:infos/]...</span>\n</div>\n<div class=\"wk_tidings_main_more\"><a target=\"_blank\" title=\"more\" href=\"[field:arcurl/]\">more>></a> </div>\n</div>\n",1902,2525);
+$z[6][4]['pagesize']="15";
+$z[6][4]['titlelen']="80";
+$z[7]=Array("pagelist","",2654,2725);
+$z[7][4]['listitem']="info,index,end,pre,next,pageno";
+$z[7][4]['listsize']="5";
+$z[8]=Array("field","",2923,2952);
+$z[8][4]['name']="typename";
+$z[9]=Array("channel","\n<li class=\"wk_menu1_cur\"><a href=\"[field:typeurl/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\n",3039,3304);
+$z[9][4]['type']="son";
+$z[9][4]['row']="8";
+$z[9][4]['currentstyle']="<li class='wk_menu1_cur'><a href='~typelink~' title='~typename~' class='a'>~typename~</a></li>";
+$z[10]=Array("global","",3639,3665);
+$z[10][4]['name']="cfg_address";
+$z[11]=Array("global","",3711,3737);
+$z[11][4]['name']="cfg_company";
+$z[12]=Array("global","",3783,3810);
+$z[12][4]['name']="cfg_shouqian";
+$z[13]=Array("global","",3856,3882);
+$z[13][4]['name']="cfg_shouhou";
+$z[14]=Array("global","",3925,3947);
+$z[14][4]['name']="cfg_qqa";
+$z[15]=Array("global","",4004,4028);
+$z[15][4]['name']="cfg_email";
+$z[16]=Array("global","",4030,4054);
+$z[16][4]['name']="cfg_email";
+$z[17]=Array("include","",5063,5100);
+$z[17][4]['filename']="footer.htm";
+
+?>

@@ -1,0 +1,536 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VTOO</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link rel="stylesheet" type="text/css" href="./skin/css/style_2_common.css" />
+<link rel="stylesheet" type="text/css" href="./skin/css/style_2_portal_index.css" />
+<script src="./skin/js/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="./skin/js/common.js" type="text/javascript"></script>
+<script src="./skin/js/pace.js" type="text/javascript"></script>
+<link href="./skin/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="./skin/css/self.css">
+<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/index.php">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="/m/index.php";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+</head>
+
+<body id="nv_portal" class="pg_index">
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+<div id="toptb" class="cl" style="display:none;"> </div>
+<div id="hd" style="background:#FFF; height:60px; border-bottom:1px solid #E6E6E6; ">
+  <div class="clear"></div>
+  <div id="week_nav">
+    <div class="wk_navwp">
+      <div class="wk_lonav">
+        <div class="wk_logo">
+          <h2><a href="/" title="北京某某科技有限公司"><img src="./skin/images/logo.png" alt="北京某某科技有限公司" border="0" /></a></h2>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<!--<div class="sub_nav">
+  <ul class="p_pop h_pop" id="mn_P2_menu" style="display: none">
+    
+    <li><a href="./xinwenzixun/gongsixinwen/" hidefocus="true" >公司新闻</a></li>
+    
+    <li><a href="./xinwenzixun/xingyexinwen/" hidefocus="true" >行业新闻</a></li>
+    
+    <li><a href="./xinwenzixun/meitibaodao/" hidefocus="true" >媒体报道</a></li>
+    
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P3_menu" style="display: none">
+    
+    <li><a href="./chanpinzhongxin/weixinkaifa/" hidefocus="true" >微信开发</a></li>
+    
+    <li><a href="./chanpinzhongxin/yidongapp/" hidefocus="true" >移动app</a></li>
+    
+    <li><a href="./chanpinzhongxin/ruanjianjiemian/" hidefocus="true" >软件界面</a></li>
+    
+    <li><a href="./chanpinzhongxin/dianzishangwu/" hidefocus="true" >电子商务</a></li>
+    
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P4_menu" style="display: none">
+    
+    <li><a href="./xiangmuanli/anlizhanshi1/" hidefocus="true" >案例展示1</a></li>
+    
+    <li><a href="./xiangmuanli/anlizhanshi2/" hidefocus="true" >案例展示2</a></li>
+    
+  </ul>
+  <div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div>
+  <ul class="p_pop h_pop" id="mn_P5_menu" style="display: none">
+    
+    <li><a href="./fuwuzhongxin/changjianwenti/" hidefocus="true" >常见问题</a></li>
+    
+  </ul>
+  <ul class="p_pop h_pop" id="mn_P1_menu" style="display: none">
+    
+    <li><a href="./guanyuwomen/tuandui/" hidefocus="true" >团队</a></li>
+    
+    <li><a href="./guanyuwomen/fazhanlicheng/" hidefocus="true" >发展历程</a></li>
+    
+    <li><a href="./guanyuwomen/chengpinyingcai/" hidefocus="true" >诚聘英才</a></li>
+    
+    <li><a href="./guanyuwomen/lianxiwomen/" hidefocus="true" >联系我们</a></li>
+    
+  </ul>-->
+</div>
+<div id="mu" class="cl">
+  <div class="wp"> </div>
+</div>
+<script src="./skin/js/week_nav.js" type="text/javascript"></script> 
+<div id="wp" class="wp">
+  <style id="diy_style" type="text/css">
+</style>
+  <script src="./skin/js/jquery-1.7.2.js" type="text/javascript"></script> 
+  <script src="./skin/js/jquery.fullpage.min.js" type="text/javascript"></script> 
+  <script src="./skin/js/scoll.js" type="text/javascript"></script> 
+  <script src="./skin/js/addons.js" type="text/javascript"></script> 
+  <script src="./skin/js/case.js" type="text/javascript"></script> 
+  <script src="./skin/js/tab.lib.js" type="text/javascript"></script> 
+  <script type="text/javascript">
+PTM(document).ready(function(){
+PTM(".wk_about").tab({
+tabId:"#wk_about_menu",tabTag:"a",conId:"#wk_about_div",conTag:"div.wk_aaa",act:"mouseover",effact: "scrollx",dft:0
+});
+});
+</script> 
+</div>
+<div class="clear"></div>
+<div class="wk_index_main"> 
+  <!--page1-->
+  <div class="section page1">
+    <div class="wk_slide-wrap">
+      <ul>
+        <li id="wk_s1" class="wk_selected">
+          <div class="wk_banner"><</div>
+          <!--相关图片插入-->
+          <div class="wk_wrap">
+            <div class="wk_banner13"><img src="./skin/images/banner13.png" alt="" /></div>
+            <div class="wk_banner12"><img src="./skin/images/banner12.png" alt="" /></div>
+            <div class="wk_banner14"><img src="./skin/images/banner14.png" alt="" /></div>
+          </div>
+        </li>
+        <li id="wk_s2">
+          <div class="wk_banner"></div>
+          <!--相关图片插入-->
+          <div class="wk_wrap">
+            <div class="wk_banner22"><img src="./skin/images/banner22.png" alt="" /></div>
+            <div class="wk_banner23"><img src="./skin/images/banner23.png" alt="" /></div>
+            <div class="wk_banner24"><a href="#" target="_blank">了解更多</a></div>
+          </div>
+        </li>
+        <li id="wk_s3">
+          <div class="wk_banner"></div>
+          <!--相关图片插入-->
+          <div class="wk_wrap">
+            <div class="wk_banner32"><img src="./skin/images/banner32.png" alt="" /></div>
+            <div class="wk_banner33"><img src="./skin/images/banner33.png" alt="" /></div>
+          </div>
+        </li>
+        <!--<li id="wk_s4">
+          <div class="wk_banner"></div>
+          
+          <div class="wk_wrap">
+            <div class="wk_banner32"><img src="./skin/images/banner32.png" alt="" /></div>
+            <div class="wk_banner33"><img src="./skin/images/banner33.png" alt="" /></div>
+          </div>
+        </li>-->
+
+      </ul>
+    </div>
+    <div class="wk_arrow"><a href="#service"><img src="./skin/images/ico3.png" /></a></div>
+    <div class="wk_slide-nav-wrap">
+      <div id="wk_slide-nav">
+        <ul>
+          <li class="wk_nav-line"></li>
+          <li class="wk_nav-bullet-container active" data-index="0"><a class="nav-link" href="javascript:void(0)">
+            <div class="nav-bullet"></div>
+            <div class="nav-text">VTOO</div>
+            </a></li>
+          <li class="wk_nav-line"></li>
+          <li class="wk_nav-bullet-container" data-index="1"><a class="nav-link" href="javascript:void(0)">
+            <div class="nav-bullet"></div>
+            <div class="nav-text">VTOO</div>
+            </a></li>
+          <li class="wk_nav-line"></li>
+          <li class="wk_nav-bullet-container" data-index="2"><a class="nav-link" href="javascript:void(0)">
+            <div class="nav-bullet"></div>
+            <div class="nav-text">VTOO</div>
+            </a></li>
+          <li class="wk_nav-line"> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--page2-->
+  <div class="section page2">
+    <div class="wk_fwxm">
+      <ul>
+        <li class="wk_li1">
+          <div class="wk_fwxm_bg"></div>
+          <div class="wk_fwxm_main">
+            <div class="wk_fwxm_ico"></div>
+            <h2>自治自理化</h2>
+            <p>Autonomy and self-reliance</p>
+            <div class="wk_fwxm_des">一切红利分配于社区建设者，VTOO团队仅负责技术支持与管道搭建。所有参与者皆为合伙人，人人都是股东。</div>
+            <!--<div class="wk_ljzx"><a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" target="_blank">立即咨询</a></div>-->
+          </div>
+        </li>
+        <li class="wk_li2">
+          <div class="wk_fwxm_bg"></div>
+          <div class="wk_fwxm_main">
+            <div class="wk_fwxm_ico"></div>
+            <h2>开启被动收益模式</h2>
+            <p>Open passive revenue model</p>
+            <div class="wk_fwxm_des">平台锁仓及分红，
+晚12点结算投资则获取平台管道内外的手续费收益、流水收益等各类板块分红。
+除去团队运营费用外，
+线上线下所有收益将按持币数分配给所有股东。
+</div>
+            <!--<div class="wk_ljzx"><a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" target="_blank">立即咨询</a></div>-->
+          </div>
+        </li>
+        <li class="wk_li3">
+          <div class="wk_fwxm_bg"></div>
+          <div class="wk_fwxm_main">
+            <div class="wk_fwxm_ico"></div>
+            <h2>亏损既是获取</h2>
+            <p>Loss is both acquisition</p>
+            <div class="wk_fwxm_des">VTOO团队首创模式，
+会员玩家在VTOO平台及管道平台中盈利可及时兑出，
+亏损既转换数字货币“VO”。
+只有通过亏损才能获取，
+Vo未来将成为全球统一交易数字货币，
+价值将不断增加。
+</div>
+            <!--<div class="wk_ljzx"><a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" target="_blank">立即咨询</a></div>-->
+          </div>
+        </li>
+        <li class="wk_li4">
+          <div class="wk_fwxm_bg"></div>
+          <div class="wk_fwxm_main">
+            <div class="wk_fwxm_ico"></div>
+            <h2>多管道发展</h2>
+            <p>Multi pipeline development</p>
+            <div class="wk_fwxm_des">VTOO团队将提供博彩、外汇数字货币、竞猜交易平台。
+提供不少于10类交易产品。
+服务社区精英会员，
+打造会员玩家专属的金融平台，布局全球市场。
+</div>
+            <!--<div class="wk_ljzx"><a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" target="_blank">立即咨询</a></div>-->
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--page3-->
+  <div class="section page3">
+    
+
+    <div class="cass" align="center">
+     
+              
+                	
+	<video id="videoPlay1" width="100%" height="768" src="./skin/images/720.mov" poster="./skin/images/video1.png" loop="loop" x-webkit-airplay="true" webkit-playsinline="true" style="margin-top: 60px">
+                        您的浏览器暂不支持播放该视频，请升级至最新版浏览器。
+                    </video>
+                
+              
+
+<script type="text/javascript">
+var video1=document.getElementById("videoPlay1");
+
+video1.onclick=function(){
+    if(video1.paused){
+        video1.play();
+    }else{
+        video1.pause();
+    }
+}
+</script> 
+    
+      <!--<h2><img src="./skin/images/case_title.png" alt="" /></h2>
+      <h2 class="wk_h2"><img src="./skin/images/case_title1.png" alt="" /></h2>-->
+      <!--<div class="wk_btndiv"> <a class="abtn aleft" href="javascript:void(0);"></a> <a class="abtn aright" href="javascript:void(0);"></a> </div>-->
+      <div class="wk_scrollcontainer">
+        
+
+        <!--<ul>
+          <li> <div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/102.html" target="_blank" title="携手正量网开创工程建设电商新未来">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZ9314O0-31P9_lit.jpg" width="275" height="190" alt="携手正量网开创工程建设电商新未来"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>-->
+<!--<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/100.html" target="_blank" title="签约金蝶云创，助力企业SAAS服务">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZ9223340-26032_lit.jpg" width="275" height="190" alt="签约金蝶云创，助力企业SAAS服务"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/99.html" target="_blank" title="硅谷明星教育团队米豆教育">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZZQ120-13020_lit.jpg" width="275" height="190" alt="硅谷明星教育团队米豆教育"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/97.html" target="_blank" title="四维图新 - 趣逛地图">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZX23450-411G_lit.jpg" width="275" height="190" alt="四维图新 - 趣逛地图"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/96.html" target="_blank" title="我开始健身pad端app">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZW20140-34116_lit.jpg" width="275" height="190" alt="我开始健身pad端app"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/95.html" target="_blank" title="优品汇手机助手">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZV15E0-2Z17_lit.jpg" width="275" height="190" alt="优品汇手机助手"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/94.html" target="_blank" title="为律生活打造在线法律服务平台">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZU25T0-19193_lit.jpg" width="275" height="190" alt="为律生活打造在线法律服务平台"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/93.html" target="_blank" title="Jackery app">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZS2I10-533a_lit.jpg" width="275" height="190" alt="Jackery app"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>-->
+ </li>
+          <li>
+            <!--<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/92.html" target="_blank" title="iPin打造的图片社区app">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZR1G60-4Z91_lit.jpg" width="275" height="190" alt="iPin打造的图片社区app"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>-->
+<!--<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/91.html" target="_blank" title="零担速配APP案例">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZQ30260-32S3_lit.jpg" width="275" height="190" alt="零担速配APP案例"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/90.html" target="_blank" title="云图是互联网大数据的聚合平台">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZM63I0-25009_lit.jpg" width="275" height="190" alt="云图是互联网大数据的聚合平台"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi1/20160901/89.html" target="_blank" title="vivo Xplay5双曲面屏">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGZLQ060-123E_lit.jpg" width="275" height="190" alt="vivo Xplay5双曲面屏"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi2/20160901/14.html" target="_blank" title="Google调研：成功和平庸的团队只有这">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGQL4c0-X401.png" width="275" height="190" alt="Google调研：成功和平庸的团队只有这"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi2/20160901/13.html" target="_blank" title="百度HR的管理技巧，真的不得不看">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGQJO2P-63151.png" width="275" height="190" alt="百度HR的管理技巧，真的不得不看"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi2/20160901/12.html" target="_blank" title="团队管理的核心，做管理必须要知道">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGQH91G0-42M5.png" width="275" height="190" alt="团队管理的核心，做管理必须要知道"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>
+<div class="wk_case_list"> <a href="./xiangmuanli/anlizhanshi2/20160901/11.html" target="_blank" title="周鸿祎在360新员工入职的讲话（适合">
+              <div class="wk_case_img"><img src="./uploads/allimg/c160901/14HGQG1H40-2ZN.png" width="275" height="190" alt="周鸿祎在360新员工入职的讲话（适合"/></div>
+              <div class="wk_case_ico"></div>
+              <div class="wk_case_xian"> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </div>
+              </a> </div>-->
+ </li>
+        </ul>
+        <!--首页-案例-内部调用代码设置位置--> 
+      </div>
+    </div>
+    <script type="text/javascript">
+PTM(function(){
+PTM(".case").Xslider({
+unitdisplayed:1,
+numtoMove:1,
+speed:500,
+scrollobjSize:Math.ceil(PTM(".uldiv").find("li").length*1)
+})
+})
+</script> 
+  </div>
+  <!--page4-->
+  <div class="section page4">
+    <div class="wk_about">
+      <h2><img src="./skin/images/about_title.png" alt="" /></h2>
+      <h2 class="wk_h2"><img src="./skin/images/about_title1.png" alt=""/></h2>
+      <div class="wk_about_menu" id="wk_about_menu"><a class="active">经验</a><a>专业</a><a>创新</a></div>
+      <div class="wk_about_div" id="wk_about_div">
+        <div class="wk_about_main wk_aaa">
+          <div class="wk_about_left"><img src="./skin/images/about_img.png" alt="" /></div>
+          <!--客户资料图插入-->
+          <div class="wk_about_right">
+            <div class="wk_about_top"> <a><img src="./skin/images/about_ico1.png" alt="" /></a> 
+              <div class="clear"></div>
+            </div>
+            <div class="wk_about_des"> VTOO由马来西亚云顶上市集团旗下云顶娱乐城团队打造。<br />
+VTOO团队在全球博彩交易市场具有丰富的实战经验，<br />为东南亚各国线上线下博彩公司提供大量技术支持。        
+            </div>
+          </div>
+        </div>
+        <div class="wk_news_list wk_aaa">
+
+        	<div class="wk_about_top"> <a><img src="./skin/images/about_ico2.png" alt="" /></a>
+              <div class="clear"></div>
+            </div>
+              <div class="wk_about_des">全球线下新型100+实体博彩娱乐城VO币将提交10+全球数字货币交易所将在全球扶持<br /> 3000+ 运营服务中心. VTOO 正在改变传统博彩业，而你理应参与其中！
+			  </div>
+
+          <!--首页-新闻动态-内部调用代码设置位置--> 
+        </div>
+        <div class="wk_news_list wk_aaa">
+        	<div class="wk_about_top"> <a><img src="./skin/images/about_ico3.png" alt="" /></a> <a style="margin-right:0;"></a>
+              <div class="clear"></div>
+            </div>
+            <div class="wk_about_des">传统迎合技术成就了VTOO，从资源产品整合到VTOO运营理念。<br />玩家既是合作伙伴又是参与者，95%以上利益划分，以玩家推动玩家，共享VTOO平台所有产品的利润分红。<br />依托技术创新，赢取市场青睐。<br />未来VTOO将全力扶持合作伙伴开设1000+线上交易平台（外汇 博彩 期货 竞猜类）<br />全球线下新型100+实体博彩娱乐城VO币将提交10+全球数字货币交易所将在全球扶持 3000+ 运营服务中心. <br />VTOO 正在改变传统博彩业，而你理应参与其中！
+
+			  </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--page5-->
+  <div class="section page5">
+    <div class="wk_service">
+      <h2><img src="./skin/images/service_title.png" alt="" /></h2>
+      <h2 class="wk_h2"><img src="./skin/images/service_title1.png" alt="" /></h2>
+      <div class="wk_service_xian"></div>
+      <div class="wk_service_main">
+        <ul>
+          <li> <img src="./skin/images/service_img1.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img2.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img3.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img4.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img5.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img6.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img7.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img8.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img9.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img10.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img11.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img12.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img13.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img14.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+          <li> <img src="./skin/images/service_img15.png" alt="" /> <span class="wk_span_1"></span> <span class="wk_span_2"></span> <span class="wk_span_3"></span> <span class="wk_span_4"></span> </li>
+        </ul>
+        <!--首页-合作客户图标修改-内部调用代码设置位置--> 
+      </div>
+    </div>
+  </div>
+  <!--page6-->
+  <div class="section page6">
+    <div class="wk_contact">
+      <div class="wk_contact_left">
+      	<div><img src="./skin/images/shaoma1.png"></div>
+      	<div><img src="./skin/images/shaoma2.png"></div>
+  	  </div>
+      <!--<div class="wk_contact_left"><img src="./skin/images/shaoma2.png" alt="" /></div>-->
+      <div class="wk_contact_right">
+        <h2><img src="./skin/images/contact_title.png" alt="" /></h2>
+        <ul class="wk_cont_div">
+          <!--<li class="wk_serve-ico-kf">业务咨询：<span class="wk_cont_a"><img src="./skin/images/cont_a.png" /></span><a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" target="_blank">12345678 【点击咨询】</a></li>-->
+          <li class="wk_serve-ico-kf">微信客服：<span class="wk_cont_a"><img src="./skin/images/a.png" /></span><a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" target="_blank"></a></li>
+          <li><span class="wk_cont_c"></span></li>
+          <!--<li><span class="wk_cont_d"></span>重庆市南岸区幸福大道科技广场智博大厦23-58</li>-->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--index_footer-->
+  <div class="section fp-auto-height">
+    <div class="wk_footer_side">
+      <div class="wk_footer"> Copyright &copy; 2016 baidu. 版权所有  备案号：<a href="http://www.miitbeian.gov.cn/" target="_blank" title="浙ICP888888888备">浙ICP888888888备</a> <br />    
+        友情链接：<a href='http://taobao.com' target='_blank'>淘宝</a> <a href='http://www.baidu.com' target='_blank'>百度一下</a>  </div>
+    </div>
+  </div>
+</div>
+<script src="./skin/js/banner.js" type="text/javascript"></script>
+<div class="clear"></div>
+<div class="wp"><!--[diy=diy1]-->
+  <div id="diy1" class="area"></div>
+  <!--[/diy]--></div>
+<div class="clear"></div>
+<div id="wp" class="wp"> </div>
+<div id="wk_ft" style="display:none; ">
+  <div id="ft" class="wp cl" style="border:0;"> </div>
+</div>
+<ul id="scbar_type_menu" class="p_pop" style="display: none;">
+</ul>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+</script>
+<link href="./skin/css/service.css" rel="stylesheet" type="text/css" />
+<!--<div class="main-im">
+  <div id="open_im" class="open-im"> </div>
+  <div class="im_main" id="im_main">
+    <div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭"> </a></div>
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" target="_blank" class="im-qq qq-a" title="在线QQ客服">
+    <div class="qq-container"></div>
+    <div class="qq-hover-c"><img class="img-qq" src="./skin/images/qq.png"></div>
+    <span>QQ在线咨询</span> </a>
+    <div class="im-tel">
+      <dt>售前咨询热线</dt>
+      <dt class="tel-num">12345678</dt>
+      <dt>售后服务热线</dt>
+      <dt class="tel-num">400-500-1234</dt>
+    </div>
+    <div class="im-footer" style="position:relative">
+      <div class="weixing-container">
+        <div class="weixing-show">
+          <div class="weixing-txt">微信扫一扫<br>
+            关注织梦58<br>
+            获取更多精彩风格</div>
+          <img class="weixing-ma" src="./skin/images/weixin.jpg">
+          <div class="weixing-sanjiao"></div>
+          <div class="weixing-sanjiao-big"></div>
+        </div>
+      </div>
+      <div class="go-top"><a href="javascript:;" title="返回顶部"></a> </div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+</div>-->
+<script type="text/javascript">
+PTM(document).ready(function(){
+PTM('#close_im').bind('click',function(){
+PTM('#main-im').css("height","0");
+PTM('#im_main').hide();
+PTM('#open_im').show();
+});
+PTM('#open_im').bind('click',function(e){
+PTM('#main-im').css("height","272");
+PTM('#im_main').show();
+PTM(this).hide();
+});
+PTM('.go-top').bind('click',function(){
+PTM(window).scrollTop(0);
+});
+PTM(".weixing-container").bind('mouseenter',function(){
+PTM('.weixing-show').show();
+})
+PTM(".weixing-container").bind('mouseleave',function(){        
+PTM('.weixing-show').hide();
+});
+});
+</script> 
+<script src="./skin/js/home.js" type="text/javascript"></script>
+<div id="scrolltop"> <span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span> </div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+<div id="discuz_tips" style="display:none;"></div>
+<script src="./skin/js/discuz_tips.js" type="text/javascript" charset="UTF-8"></script>
+</body>
+</html>

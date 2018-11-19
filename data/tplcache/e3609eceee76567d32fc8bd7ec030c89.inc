@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" hidefocus="true"  >新闻资讯</a>

@@ -1,0 +1,3 @@
+INSERT INTO `dede_flink` VALUES('10','1','http://www.phpymw.com','织梦模板','','','','1477570112','1','2');
+INSERT INTO `dede_flink` VALUES('12','1','http://hm02.taobao.com','织梦主机','','','','1477570129','1','2');
+INSERT INTO `dede_flink` VALUES('11','1','http://www.phpymw.com','响应式织梦模板','','','','1477570120','1','2');

@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" hidefocus="true"  >[field:typename/]</a>
